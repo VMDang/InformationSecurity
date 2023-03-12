@@ -1,0 +1,10 @@
+Thuật toán Euclid
+- Ước của a và b:         d|a và d|b
+- UCLN của a và b là : gcd(a,b) 
+VD: gcd(21,15) = gcd(15,6) = gcd(6,3)
+    21%15 = 6 --> 15%6 = 3 --> 6%3 = 0 --> Done
+- Phép chia (Bước 3 của thuật toán) thực hiện nhiều nhất: log2(b) +2 lần
+Thuật toán Euclid mở rộng
+-Input cặp số (a,b)
+-Output bộ ba d = gcd(a,b) = ax + by
+ 
